@@ -1,0 +1,25 @@
+# Secrets
+.env
+credentials.json
+token.json
+config.yaml
+
+# Caches
+__pycache__/
+.vscode/
+venv/
+dlib/** */
+instance/
+lib/
+dlib/
+
+# Private things
+photos/
+
+# Garbage
+.DS_Store
+**/.DS_Store
+
+# Parts to not upload
+PhotoJournal-App/
+server/

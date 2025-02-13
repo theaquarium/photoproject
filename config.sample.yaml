@@ -1,0 +1,13 @@
+files:
+    photos_folder: 'photos'
+    raw_folder: 'raw'
+    originals_folder: 'originals'
+    processed_folder: 'processed'
+    thumbnails_folder: 'thumbs'
+    reference: 'me.png'
+    notes: 'notes.yaml'
+    stored_landmarks: 'stored_landmarks.yaml'
+    locations: 'locations.yaml'
+
+start_date: 2025-02-10
+end_date: 2025-02-17
