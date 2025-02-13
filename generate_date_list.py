@@ -11,5 +11,5 @@ for day in daterange(start_date, end_date):
     dayname = day.strftime("%Y-%m-%d")
     output += dayname + ': ""\n'
 
-with open("notes.yaml", "w") as text_file:
+with open("date_list.yaml", "w") as text_file:
     text_file.write(output)
