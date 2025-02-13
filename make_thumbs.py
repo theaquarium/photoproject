@@ -56,7 +56,7 @@ for week in weeks:
             result_image.paste(
                 cropped, (mini_size[0] * image_placements[index][0], mini_size[1] * image_placements[index][1]))
 
-    fnt = ImageFont.truetype("RobotoMono-Regular.ttf", 60)
+    fnt = ImageFont.truetype("assets/RobotoMono-Regular.ttf", 60)
     draw = ImageDraw.Draw(result_image)
 
     # Rect

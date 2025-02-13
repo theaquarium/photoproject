@@ -178,7 +178,7 @@ for day in daterange(start_date, end_date):
         date_exif = image.getexif()[0x0132]
         date = datetime.strptime(date_exif, '%Y:%m:%d %H:%M:%S')
 
-        fnt = ImageFont.truetype("RobotoMono-Regular.ttf", 40)
+        fnt = ImageFont.truetype("assets/RobotoMono-Regular.ttf", 40)
         draw = ImageDraw.Draw(result_image)
         draw.text((result_resolution[0] - side_text_offset, result_resolution[1] - bottom_text_offset), date.strftime(
             '%b %d, %Y').upper(), font=fnt, fill="white", anchor='rs', stroke_width=1, stroke_fill='black')
